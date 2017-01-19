@@ -6,6 +6,7 @@
 html, body{
     height: 100%;
     font-family: arial, sans-serif;
+    background-color: black;
 
 }
 
@@ -13,23 +14,35 @@ h1,h2, h3, h4, h5, h6, p {
       margin-bottom: 20px;
 }
 
+#logoNav {
+    height: 35px;
+    width: auto;
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-right: 20px;
+}
 
 /*navbar starts below*/
 nav {
     position: fixed;
-    height: 50px;
+    height: 60px;
     width: 100%;
-    background-color: rgba(0,0,0,.5) ;
+    background-color: black;
+    opacity: 100%
     z-index: 99;
-    text-align: right;
+    text-align:center;
 }
+
 
 nav a {
     text-decoration: none;
     font-family: arial, sans-serif;
-    color: #0066ff;
+    color:#108cf4;
     margin-right: 50px;
     line-height: 50px;
+}
+#homeNav {
+    margin-left: 20px;
 }
 
 /*this is the core element of the scrolling effect*/
@@ -75,18 +88,24 @@ form input{
     color: white;
 }
 
+.loginButton {
+    margin-top: 500px;
+    margin-left: 500px;
+    z-index: 99;
+}
+
 /*change sects for images I just picked dark cakes*/
 
 .sectOne {
-    background-image: url("../birthday crate/images/image1.jpg");
+    background-image: url("../design/images/image1.jpg");
 }
 
 .sectTwo {
-    background-image: url("../birthday crate/images/image2.jpg");
+    background-image: url("../design/images/image2.jpg");
 }
 
 .sectThree {
-  background-image: url("../birthday crate/images/image3.jpg");
+  background-image: url("../design/images/image3.jpg");
 }
 
 body {
@@ -95,4 +114,21 @@ body {
     font: "Arial", serif;
     font-size: 20;
     font-weight: bold;
+}
+
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url("../design/images/image1.jpg") no-repeat;
+    background-size: cover; 
 }
