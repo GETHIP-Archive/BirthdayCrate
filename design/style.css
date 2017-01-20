@@ -41,6 +41,10 @@ nav a {
     margin-right: 50px;
     line-height: 50px;
 }
+
+nav a:hover {
+    color: #5AAFF6
+}
 #homeNav {
     margin-left: 20px;
 }
@@ -95,10 +99,10 @@ form input{
 }
 
 /*change sects for images I just picked dark cakes*/
-
+/*
 .sectOne {
     background-image: url("../design/images/image1.jpg");
-}
+} */
 
 .sectTwo {
     background-image: url("../design/images/image2.jpg");
@@ -116,19 +120,9 @@ body {
     font-weight: bold;
 }
 
-video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
+video {
+    height: 100px;
     width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url("../design/images/image1.jpg") no-repeat;
-    background-size: cover; 
+    padding-left: 100px;
+    margin-left: 0px;
 }
