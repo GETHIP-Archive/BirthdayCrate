@@ -100,15 +100,18 @@ form {
 form input {
   outline: 0;
   border: 1px solid;
-  background-color: #0066ff;
+  border-color: lightgrey;
+  background-color: white;
   width: 250px;
   border-radius: 3px;
-  padding: 10px 15px;
-  margin: 10px auto 20px auto;
+  padding: 5px 5px 5px 5px;
+  margin: 5px;
+  margin-bottom: 10px;
   display: block;
   text-align: center;
   font-size: 18px;
-  color: white;
+  color: black;
+  border-radius: 10px;
 }
 
 .loginButton {
@@ -122,7 +125,7 @@ form input {
   border-color: #108cf4;
   cursor: pointer;
   margin-top: 30%;
-  margin-left: 50%;
+  margin-left: 40%;
 }
 
 .loginButton:hover {
@@ -151,10 +154,12 @@ form input {
 
 .sectTwo {
   /* This path is probably wrong. Thanks Obama. */
-  background-image: url("../design/images/image2.jpg");
+  background-image: url("../public/candles.jpg");
 }
 
 .sectThree {
   /* This path is probably wrong. Thanks Obama. */
-  background-image: url("../design/images/image3.jpg");
+  background-image: url("../public/bdaycake.jpg");
 }
+
+
