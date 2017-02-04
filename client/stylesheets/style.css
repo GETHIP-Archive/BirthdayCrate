@@ -33,12 +33,17 @@ nav {
 nav a {
     text-decoration: none;
     font-family: arial, sans-serif;
-    color: #0066ff;
+    color: #108cf4;
     margin-right: 50px;
     line-height: 50px;
 }
 
-/* The formatting behind the parallax */
+.logoNav {
+    height: 20px;
+    width: auto;
+}
+
+/* Core rules from parallax */
 .sect {
     height: 100%;
     background-size: cover;
@@ -115,4 +120,35 @@ form input{
 
 .sectThree {
   background-image: url("cupcakes.jpg.jpg");
+}
+
+.loginButton {
+    border-color:  #108cf4;
+    color:  white;
+    border-style: solid;
+    border-radius: 13px;
+    background-color:  #108cf4;
+    border-width: 0.1px;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+display: inline-block;
+text-decoration: none;
+}
+
+.loginButton:hover {
+background-color: 67B3F3;
+}
+
+.about {
+    font-family:'Abel', sans-serif
+}
+
+/* latin */
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abel'), local('Abel-Regular'), url(https://fonts.gstatic.com/s/abel/v6/brdGGFwqYJxjg2CD1E9o7g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
