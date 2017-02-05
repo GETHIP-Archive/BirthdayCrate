@@ -1,4 +1,4 @@
-/* CSS colors are off sorry I'm almost color blind */
+  /* CSS colors are off sorry I'm almost color blind */
 * {
     margin: 0;
 }
@@ -32,8 +32,10 @@ nav a {
     line-height: 50px;
 }
 
-.logoNav {
-    height: 20px;
+.mainav:a 
+
+logoNav img {
+    height: 2px;
     width: auto;
 }
 /*meep
