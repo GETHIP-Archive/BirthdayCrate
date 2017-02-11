@@ -10,15 +10,16 @@ FlowRouter.route("/", {
   // Optional, but it makes me feel warmer inside.
   name: "Index"
 });
+// The about page
 FlowRouter.route("/about", {
   action: function() {
     BlazeLayout.render("main", {
-      // If an about template existed...
       content: "about"
     });
   },
   name: "About"
 });
+// The team page
 FlowRouter.route("/login", {
   action: function() {
     BlazeLayout.render("main", {
@@ -27,6 +28,7 @@ FlowRouter.route("/login", {
   },
   name: "Login"
 });
+// Registration page
 FlowRouter.route("/register", {
   action: function() {
     BlazeLayout.render("main", {
@@ -35,6 +37,7 @@ FlowRouter.route("/register", {
   },
   name: "Register"
 });
+// Team page (will be replaced at some point to be put on the homepage)
 FlowRouter.route("/team", {
   action: function() {
     BlazeLayout.render("main", {

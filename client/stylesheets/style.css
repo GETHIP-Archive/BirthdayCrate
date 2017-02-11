@@ -1,20 +1,27 @@
 /* CSS colors are off sorry I'm almost color blind */
+/* Bad practice, should be worked out of our project */
 * {
     margin: 0;
+}
+
+body {
+  margin:0;
+  padding: 0;
+  font: "sans-serif", serif;
+  font-size: 24;
+  font-weight: bold;
 }
 
 html, body{
     height: 100%;
     font-family: arial, sans-serif;
-
 }
 
 h1,h2, h3, h4, h5, h6, p {
       margin-bottom: 20px;
 }
 
-
-/*navbar starts below*/
+/* Navigation Bar */
 nav {
     position: fixed;
     height: 50px;
@@ -33,13 +40,11 @@ nav {
 nav a {
     text-decoration: none;
     font-family: arial, sans-serif;
-    color: #0066ff;
+    color: #108cf4;
     margin-right: 50px;
     line-height: 50px;
     text-align: center;
 }
-/*meep
-/*this is the core element of the scrolling effect*/
 
 .sect{
   height:900px;
@@ -51,7 +56,8 @@ nav a {
     height: 512px;
     background-color: #CCE0FF;
 }
-/*for login*/
+
+/* Login page */
 .sectLogin {
     margin: auto;
     padding: 0 0;
@@ -59,7 +65,8 @@ nav a {
     border-style: solid;
     border-color: #222233;
 }
-form{
+
+form {
     padding: 20px 0;
     width: 20%;
     margin-top: 10%;
@@ -68,6 +75,7 @@ form{
     text-align: center;
     background-color: ##CCE0FF;
 }
+
 form input{
     outline: 0;
     border: 1px solid;
@@ -81,6 +89,7 @@ form input{
     font-size: 18px;
     color: white;
 }
+
 #submit {
     background-color: #CCE0FF;
     -moz-border-radius: 5px;
@@ -94,15 +103,13 @@ form input{
     border:none;
 }
 
-
-
 #submit:hover {
     border: none;
     background:##222233;
     box-shadow: 0px 0px 1px black;
 }
 
-/*change sects for images I just picked dark cakes*/
+/* Pictures for different sections of the parallax */
 
 
 .sectOne {
@@ -117,14 +124,33 @@ form input{
   background-image: url("candles.jpg")
 }
 
-
-
+.loginButton {
+    border-color:  #108cf4;
+    color:  white;
+    border-style: solid;
+    border-radius: 13px;
+    background-color:  #108cf4;
+    border-width: 0.1px;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+display: inline-block;
+text-decoration: none;
 }
 
-body {
-    margin:0;
-    padding: 0;
-    font: "sans-serif", serif;
-    font-size: 24;
-    font-weight: bold;
+.loginButton:hover {
+background-color: #67B3F3;
+}
+
+.about {
+    font-family:'Abel', sans-serif
+}
+
+/* latin */
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abel'), local('Abel-Regular'), url(https://fonts.gstatic.com/s/abel/v6/brdGGFwqYJxjg2CD1E9o7g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
