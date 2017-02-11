@@ -21,7 +21,13 @@ nav {
     width: 100%;
     background-color: rgba(0,0,0,.5) ;
     z-index: 99;
-    text-align: right;
+    text-align: center;
+}
+.logoNav {
+  height: 50px;
+  width: 300px;
+  margin-right: 50px;
+  text-align: center;
 }
 
 nav a {
@@ -30,18 +36,19 @@ nav a {
     color: #0066ff;
     margin-right: 50px;
     line-height: 50px;
+    text-align: center;
 }
 /*meep
 /*this is the core element of the scrolling effect*/
-.sect {
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 
+.sect{
+  height:900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .subSection {
-    height: 75%;
+    height: 512px;
     background-color: #CCE0FF;
 }
 /*for login*/
@@ -97,16 +104,21 @@ form input{
 
 /*change sects for images I just picked dark cakes*/
 
+
 .sectOne {
-    background-image: url("../birthday crate/images/image1.jpg");
+  background-image: url("cupcakes.jpg");
 }
 
 .sectTwo {
-    background-image: url("../birthday crate/images/image2.jpg");
+  background-image: url("bdaycake.jpg")
 }
 
 .sectThree {
-  background-image: url("../birthday crate/images/image3.jpg");
+  background-image: url("candles.jpg")
+}
+
+
+
 }
 
 body {
