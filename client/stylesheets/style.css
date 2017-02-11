@@ -57,6 +57,21 @@ nav a {
 .subSection {
     height: 512px;
     background-color: #CCE0FF;
+    text-align: center;
+    vertical-align: middle;
+    font: 
+}
+.subSection.subsectOne {
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.amazonLogin {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Login page */
