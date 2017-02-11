@@ -33,18 +33,22 @@ nav {
 .logoNav {
   height: 50px;
   width: 300px;
-  margin-right: 50px;
+  margin-left: 5em;
   text-align: center;
 }
 
 nav a {
     text-decoration: none;
-    font-family: arial, sans-serif;
+    font-family: "Abel", sans-serif;
     color: #108cf4;
     margin-right: 50px;
     line-height: 50px;
     text-align: center;
     margin-bottom: 5px;
+}
+
+nav a:hover {
+    color: #67B3F3;
 }
 
 
@@ -107,7 +111,7 @@ form input{
 
 #submit:hover {
     border: none;
-    background:##222233;
+    background:#222233;
     box-shadow: 0px 0px 1px black;
 }
 
