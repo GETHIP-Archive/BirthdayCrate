@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-  /* CSS colors are off sorry I'm almost color blind */
-=======
+/* CSS colors are off sorry I'm almost color blind */
 /* Bad practice, should be worked out of our project */
->>>>>>> dcf689c6a54ff5ce138aa01a4dd5e8edee284b32
 * {
     margin: 0;
 }
@@ -31,7 +28,13 @@ nav {
     width: 100%;
     background-color: rgba(0,0,0,.5) ;
     z-index: 99;
-    text-align: right;
+    text-align: center;
+}
+.logoNav {
+  height: 50px;
+  width: 300px;
+  margin-right: 50px;
+  text-align: center;
 }
 
 nav a {
@@ -40,25 +43,17 @@ nav a {
     color: #108cf4;
     margin-right: 50px;
     line-height: 50px;
+    text-align: center;
 }
 
-.mainav:a 
-
-logoNav img {
-    height: 2px;
-    width: auto;
+.sect{
+  height:900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
-/* Core rules from parallax */
-.sect {
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
 .subSection {
-    height: 75%;
+    height: 512px;
     background-color: #CCE0FF;
 }
 
@@ -116,16 +111,17 @@ form input{
 
 /* Pictures for different sections of the parallax */
 
+
 .sectOne {
-    background-image: url("candles.jpg");
+  background-image: url("cupcakes.jpg");
 }
 
 .sectTwo {
-    background-image: url("bdaycake.jpg.jpg");
+  background-image: url("bdaycake.jpg")
 }
 
 .sectThree {
-  background-image: url("cupcakes.jpg.jpg");
+  background-image: url("candles.jpg")
 }
 
 .loginButton {
