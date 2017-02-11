@@ -116,14 +116,12 @@ form input{
 }
 
 /* Pictures for different sections of the parallax */
-
-
 .sectOne {
   background-image: url("bdaycake.jpg");
 }
 
 .sectTwo {
-  background-image: url("cupcake.jpg")
+  background-image: url("cupcakes.jpg")
 }
 
 .sectThree {
