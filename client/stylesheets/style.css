@@ -22,13 +22,14 @@ h1,h2, h3, h4, h5, h6, p {
 }
 
 /* Navigation Bar */
-nav {
+.nav {
     position: fixed;
     height: 50px;
     width: 100%;
     background-color: rgba(0,0,0) ;
     z-index: 99;
     text-align: center;
+    padding-bottom: 8px   
 }
 .logoNav {
   height: 50px;
@@ -37,7 +38,7 @@ nav {
   text-align: center;
 }
 
-nav a {
+.nav a {
     text-decoration: none;
     font-family: "Abel", sans-serif;
     color: #108cf4;
@@ -47,7 +48,7 @@ nav a {
     margin-bottom: 5px;
 }
 
-nav a:hover {
+.nav a:hover {
     color: #67B3F3;
 }
 
@@ -172,4 +173,8 @@ background-color: #67B3F3;
   font-weight: 400;
   src: local('Abel'), local('Abel-Regular'), url(https://fonts.gstatic.com/s/abel/v6/brdGGFwqYJxjg2CD1E9o7g.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* Should Chance Nav Color after scrolling */
+.nav.active {
+    background-color: black;
 }
