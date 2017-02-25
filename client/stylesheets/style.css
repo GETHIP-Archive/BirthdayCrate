@@ -19,6 +19,7 @@ html, body{
 
 h1,h2, h3, h4, h5, h6, p {
       margin-bottom: 20px;
+      text-align: center;
 }
 
 /* Navigation Bar */
@@ -29,7 +30,7 @@ h1,h2, h3, h4, h5, h6, p {
     background-color: rgba(0,0,0) ;
     z-index: 99;
     text-align: center;
-    padding-bottom: 8px   
+    padding-bottom: 8px
 }
 .logoNav {
   height: 50px;
@@ -64,7 +65,7 @@ h1,h2, h3, h4, h5, h6, p {
     background-color: #CCE0FF;
     text-align: center;
     vertical-align: middle;
-    font: 
+    font:
 }
 .subSection.subsectOne {
   position: relative;
@@ -177,4 +178,32 @@ background-color: #67B3F3;
 /* Should Chance Nav Color after scrolling */
 .nav.active {
     background-color: black;
+}
+.option1 {
+    right:5em;
+    width:25em;
+    height: 27em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    border: solid black;
+
+}
+.option2{
+    left:5em;
+    right:5em
+    width:25em;
+    height: 27em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    border: solid black;
+}
+.imagecontainer {
+    width: 100%;
+}
+.image {
+    width:50%;
 }
