@@ -21,7 +21,7 @@ FlowRouter.route("/survey", {
   name: "Survey"
 });
 // You know the drill
-FlowRouter.route("/dashboard", {
+FlowRouter.route("/dash", {
   action: function() {
     BlazeLayout.render("main", {
       content: "dashboard"

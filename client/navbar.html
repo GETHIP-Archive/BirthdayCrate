@@ -6,13 +6,17 @@
 <!-- Contents of the navigation bar -->
   <link rel="icon" sizes="16x16 32x32" href="/favicon.ico" />
   <nav class="nav">
-    <a class="mainNav" href="/about">About</a>
-    <a class="mainNav" href="/team">Team</a>
+    {{#if currentUser}}
+      <a class="mainNav" href="/dash">Dashboard</a>
+    {{/if}}
+    <a class="mainNav" href="/about">About Us</a>
     <!-- Our logo -->
-    <a class="homeNav" href="https://www.amazon.com/ap/signin?_encoding=UTF8&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_signin">
+    <a class="homeNav">
       <img class="logoNav" id="logoNav" src="bclogo.png">
     </a>
-    <a data-scroll href="#login">Login</a>
-    <a href="/register">Register</a>
+    {{> loginButtons}}
+    {{#if currentUser}}
+      <a class="mainNav" href="/survey">Survey</a>
+    {{/if}}
   </nav>
 </template>
