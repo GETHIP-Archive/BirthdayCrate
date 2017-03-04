@@ -14,14 +14,14 @@
 body {
   margin:0;
   padding: 0;
-  font-family:'Abel' ,"sans-serif", serif;
+  font-family:"Abel",sans-serif, serif;
   font-size: 24;
   font-weight: bold;
   background-color: black;
 }
 html, body{
     height: 100%;
-    font-family: arial, sans-serif;
+    font-family: "Abel", sans-serif;
 }
 h1,h2, h3, h4, h5, h6, p {
       margin-bottom: 20px;
@@ -64,9 +64,6 @@ table.developers {
   margin-bottom: 2em;
   color: white;
 }
-a.mainNav {
-  text-decoration: underline !important;
-}
 .nav {
     position: fixed;
     height: 50px;
@@ -74,12 +71,14 @@ a.mainNav {
     background-color: rgba(0,0,0) ;
     z-index: 99;
     text-align: center;
+    padding-bottom: 1.5em;
 }
 .logoNav {
   height: 50px;
   width: 300px;
   margin-left: 5em;
   text-align: center;
+  margin-top: 5px;
 }
 .nav a {
     text-decoration: none;
@@ -89,14 +88,11 @@ a.mainNav {
     line-height: 50px;
     text-align: center;
     margin-bottom: 5px;
-<<<<<<< HEAD
     font-size: 20px;
     
-=======
->>>>>>> 274fbad5f5b11696aa0c8f2e4992a9e143b6d258
 }
 .nav a:hover {
-    color: #67B3F3;
+    color: #6fbaf8;
 }
 .sect{
   height:900px;
@@ -105,7 +101,7 @@ a.mainNav {
   background-attachment: fixed;
 }
 .subSection {
-    background-color: #CCE0FF;
+    background-color: #6fbaf8;
     text-align: center;
     vertical-align: middle;
 }
@@ -135,7 +131,7 @@ form {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: #CCE0FF;
+    background-color:#6fbaf8;
 }
 form input{
     outline: 0;
@@ -151,12 +147,12 @@ form input{
     color: white;
 }
 #submit {
-    background-color: #CCE0FF;
+    background-color: #6fbaf8;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius:6px;
     color: #222233;
-    font-family: 'arial';
+    font-family: "Abel";
     font-size: 20px;
     text-decoration: none;
     cursor: pointer;
@@ -191,10 +187,10 @@ display: inline-block;
 text-decoration: none;
 }
 .loginButton:hover {
-background-color: #67B3F3;
+background-color:#6fbaf8;
 }
 .about {
-    font-family:'Abel', sans-serif
+    font-family:'Abel', sans-serif;
 }
 p.negate {
   margin-bottom: 20px;
