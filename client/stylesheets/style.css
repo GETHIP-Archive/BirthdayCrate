@@ -1,4 +1,4 @@
-/* CSS colors are off sorry I'm almost color blind */
+
 /* Latin */
 @font-face {
   font-family: 'Abel';
@@ -14,13 +14,14 @@
 body {
   margin:0;
   padding: 0;
-  font-family: "Abel", "sans-serif", serif;
+  font-family:'Abel' ,"sans-serif", serif;
   font-size: 24;
   font-weight: bold;
   background-color: black;
 }
 html, body{
     height: 100%;
+    font-family: arial, sans-serif;
 }
 h1,h2, h3, h4, h5, h6, p {
       margin-bottom: 20px;
@@ -45,15 +46,16 @@ div.sect.sectTwo, div.sect.sectThree {
   justify-content: center;
 }
 img.devPic {
-  height: 15em;
-  width: 15em;
+  height: 10em;
+  width: 10em;
   border-radius: 25%;
-  margin-left:2em;
-  margin-right:2em;
 }
 table.developers {
+  table-layout: fixed;
+  width: 100%;
   margin-right:auto;
   margin-left:auto;
+
 }
 /* Navigation Bar */
 .centered {
@@ -87,6 +89,11 @@ a.mainNav {
     line-height: 50px;
     text-align: center;
     margin-bottom: 5px;
+<<<<<<< HEAD
+    font-size: 20px;
+    
+=======
+>>>>>>> 274fbad5f5b11696aa0c8f2e4992a9e143b6d258
 }
 .nav a:hover {
     color: #67B3F3;
@@ -216,16 +223,30 @@ div.imgContainer {
 }
 /* Dashboard */
 h2.menuItem {
-  color:white;
+  color:#EF730B;
+  border-bottom: 3px solid;
+  font-family:'Abel' ,"sans-serif", serif;
 }
 td.menuBox {
-  border: 2px solid white;
+  border: 5px groove #108CF4;
+  background-color: #252525;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 p.statusText {
   color:white;
+  background-color: #252525;
+  font-family:'Abel' ,"sans-serif", serif;
 }
 table.spaced {
+  table-layout: fixed;
   text-align:center;
   width:100%;
   border-spacing: 5em;
+}
+h1.centered {
+  color: #868685;
+  font-family:'Abel' ,"sans-serif", serif;
 }
