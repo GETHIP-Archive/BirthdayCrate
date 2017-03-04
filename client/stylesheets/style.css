@@ -45,11 +45,9 @@ div.sect.sectTwo, div.sect.sectThree {
   justify-content: center;
 }
 img.devPic {
-  height: 15em;
-  width: 15em;
+  height: 10em;
+  width: 10em;
   border-radius: 25%;
-  margin-left:2em;
-  margin-right:2em;
 }
 table.developers {
   table-layout: fixed;
@@ -76,7 +74,7 @@ a.mainNav {
     z-index: 99;
     text-align: center;
     padding-bottom: 1.5em;
- 
+
 }
 .logoNav {
   height: 50px;
@@ -93,7 +91,7 @@ a.mainNav {
     text-align: center;
     margin-bottom: 5px;
     font-size: 2em;
-    
+
 }
 .nav a:hover {
     color: #67B3F3;
@@ -218,16 +216,26 @@ div.imgContainer {
 }
 /* Dashboard */
 h2.menuItem {
-  color:white;
+  color: #EF730B;
+  border-bottom: 3px solid;
 }
 td.menuBox {
   border: 2px solid white;
+  background-color: #252525;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 p.statusText {
-  color:white;
+  color: white;
+  background-color: #252525;
 }
 table.spaced {
+  table-layout: fixed;
   text-align:center;
   width:100%;
   border-spacing: 5em;
+}
+h1.centered{
+  color: #868685
 }
