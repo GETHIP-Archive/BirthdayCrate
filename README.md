@@ -6,5 +6,5 @@ Birthday Crate project for GETHIP 2016-17.
 - Skylor Martin (Architect)
 - Gabi Jaapar
 - Emma Carlson
-- Thomas Gerot
+- Thomas Gerot (Meteor Wrangler)
 - Jiayu Shao
