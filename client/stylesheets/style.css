@@ -14,13 +14,14 @@
 body {
   margin:0;
   padding: 0;
-  font-family: "Abel", "sans-serif", serif;
+  font: "sans-serif", serif;
   font-size: 24;
   font-weight: bold;
   background-color: black;
 }
 html, body{
     height: 100%;
+    font-family: arial, sans-serif;
 }
 h1,h2, h3, h4, h5, h6, p {
       margin-bottom: 20px;
@@ -211,16 +212,27 @@ div.imgContainer {
 }
 /* Dashboard */
 h2.menuItem {
-  color:white;
+  color:#EF730B;
+  border-bottom: 3px solid;
 }
 td.menuBox {
-  border: 2px solid white;
+  border: 5px groove #108CF4;
+  background-color: #252525;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 p.statusText {
   color:white;
+  background-color: #252525;
 }
 table.spaced {
+  table-layout: fixed;
   text-align:center;
   width:100%;
   border-spacing: 5em;
+}
+h1.centered {
+  color: #868685;
 }
