@@ -72,6 +72,8 @@ a.mainNav {
     background-color: rgba(0,0,0) ;
     z-index: 99;
     text-align: center;
+    padding-bottom: 1.5em;
+ 
 }
 .logoNav {
   height: 50px;
@@ -87,6 +89,8 @@ a.mainNav {
     line-height: 50px;
     text-align: center;
     margin-bottom: 5px;
+    font-size: 2em;
+    
 }
 .nav a:hover {
     color: #67B3F3;
@@ -165,10 +169,10 @@ form input{
   background-image: url("bdaycake.jpg");
 }
 .sectTwo {
-  background-image: url("cupcakes.jpg")
+  background-image: url("cupcakes.jpg");
 }
 .sectThree {
-  background-image: url("candles.jpg")
+  background-image: url("candles.jpg");
 }
 .loginButton {
     border-color:  #108cf4;
