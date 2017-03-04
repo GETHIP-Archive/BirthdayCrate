@@ -53,8 +53,11 @@ img.devPic {
   margin-right:2em;
 }
 table.developers {
+  table-layout: fixed;
+  width: 100%;
   margin-right:auto;
   margin-left:auto;
+
 }
 /* Navigation Bar */
 .centered {
