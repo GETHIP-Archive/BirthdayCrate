@@ -190,9 +190,14 @@ background-color: #67B3F3;
     font-family:'Abel', sans-serif
 }
 p.negate {
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+  margin: 0 auto;
   padding-bottom: 0px;
-  font-size: 1.6em;
+  font-size: 20px;
+  width: 45em;
+  text-align: center;
+
+
 }
 /* Should Chance Nav Color after scrolling */
 .nav.active {
