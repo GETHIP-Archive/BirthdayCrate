@@ -1,4 +1,12 @@
 /* CSS colors are off sorry I'm almost color blind */
+/* Latin */
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abel'), local('Abel-Regular'), url(https://fonts.gstatic.com/s/abel/v6/brdGGFwqYJxjg2CD1E9o7g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
 /* Bad practice, should be worked out of our project */
 * {
     margin: 0;
@@ -9,6 +17,7 @@ body {
   font: "sans-serif", serif;
   font-size: 24;
   font-weight: bold;
+  background-color: black;
 }
 html, body{
     height: 100%;
@@ -28,12 +37,32 @@ h1.inspireTop {
   padding-top: 5em;
   padding-left: 2em;
 }
+h2.subTitle {
+  font-size: 3.5em;
+}
 div.sect.sectTwo, div.sect.sectThree {
   display:flex;
   align-items: center;
   justify-content: center;
 }
+img.devPic {
+  height: 15em;
+  width: 15em;
+  border-radius: 25%;
+  margin-left:2em;
+  margin-right:2em;
+}
+table.developers {
+  margin-right:auto;
+  margin-left:auto;
+}
 /* Navigation Bar */
+.centered {
+  text-align:center;
+  padding-top: 3em;
+  margin-bottom: 2em;
+  color: white;
+}
 a.mainNav {
   text-decoration: underline !important;
 }
@@ -44,7 +73,6 @@ a.mainNav {
     background-color: rgba(0,0,0) ;
     z-index: 99;
     text-align: center;
-    padding-bottom: 8px
 }
 .logoNav {
   height: 50px;
@@ -71,7 +99,6 @@ a.mainNav {
   background-attachment: fixed;
 }
 .subSection {
-    height: 512px;
     background-color: #CCE0FF;
     text-align: center;
     vertical-align: middle;
@@ -163,15 +190,38 @@ background-color: #67B3F3;
 .about {
     font-family:'Abel', sans-serif
 }
-/* latin */
-@font-face {
-  font-family: 'Abel';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Abel'), local('Abel-Regular'), url(https://fonts.gstatic.com/s/abel/v6/brdGGFwqYJxjg2CD1E9o7g.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+p.negate {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 1.6em;
 }
 /* Should Chance Nav Color after scrolling */
 .nav.active {
     background-color: black;
+}
+/* Survey */
+img.surveyOption {
+  height:40em;
+  margin-left:6em;
+  margin-right:6em;
+  width:40em;
+  border: 6px outset #108cf4;
+}
+div.imgContainer {
+  text-align: center;
+}
+/* Dashboard */
+h2.menuItem {
+  color:white;
+}
+td.menuBox {
+  border: 2px solid white;
+}
+p.statusText {
+  color:white;
+}
+table.spaced {
+  text-align:center;
+  width:100%;
+  border-spacing: 5em;
 }
