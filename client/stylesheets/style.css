@@ -83,16 +83,16 @@ table.developers {
 .nav a {
     text-decoration: none;
     font-family: "Abel", sans-serif;
-    color: #108cf4;
+    color: #ffffff;
     margin-right: 50px;
     line-height: 50px;
     text-align: center;
     margin-bottom: 5px;
     font-size: 20px;
-    
+
 }
 .nav a:hover {
-    color: #6fbaf8;
+    color: #999999;
 }
 .sect{
   height:900px;
@@ -101,8 +101,10 @@ table.developers {
   background-attachment: fixed;
 }
 .subSection {
-    background-color: #6fbaf8;
+    border: 5px groove #ffff00;
+    background-color: #252525;;
     text-align: center;
+    color: #ffffff;
     vertical-align: middle;
 }
 .subSection.subsectOne {
