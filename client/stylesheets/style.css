@@ -248,12 +248,14 @@ h1.centered {
 /* Login Styles */
 
 /* Main login link */
+/*note to attempt to remove underline
+text-decoration: none not working*/
 .login-link-text {
     font-family: "Abel", sans-serif;
+    text-decoration-line: none;
     color: #108CF4;
     margin-left: 300px;
     line-height: 50px;
-    text-align: right;
     margin-bottom: 5px;
     font-size: 20px;
 }
@@ -267,5 +269,8 @@ h1.centered {
     /*  Anything we put here appears to
         be overriden by Meteor.
         Use !important at your own peril. */
+  /*can confirm the above styling appears
+    to be pointless under current circumstances
+    outside of text color. */
     background-color: cyan;
 }
