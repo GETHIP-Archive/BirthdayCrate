@@ -249,7 +249,13 @@ h1.centered {
 
 /* Main login link */
 .login-link-text {
-
+    font-family: "Abel", sans-serif;
+    color: #108CF4;
+    margin-right: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 20px;
 }
 /* "Forgot password" and "sign up links" */
 .additional-link {
