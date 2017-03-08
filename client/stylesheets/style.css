@@ -80,7 +80,7 @@ table.developers {
   text-align: center;
   margin-top: 5px;
 }
-.nav a {
+.nav a.mainNav {
     text-decoration: none;
     font-family: "Abel", sans-serif;
     color: #ffffff;
@@ -91,7 +91,7 @@ table.developers {
     font-size: 20px;
 
 }
-.nav a:hover {
+.nav a.mainNav:hover {
     color: #999999;
 }
 .sect{
@@ -273,4 +273,22 @@ h1.centered {
 
 .blue:hover {
   background-color: #6fbaf8;
+}
+
+/* Login Styles */
+
+/* Main login link */
+.login-link-text {
+    background-color: red;
+}
+/* "Forgot password" and "sign up links" */
+.additional-link {
+    background-color: green;
+}
+
+/* Login button */
+.login-buttons-password {
+    /*  Anything we put here appears to
+        be overriden by Meteor. */
+    background-color: cyan;
 }
