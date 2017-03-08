@@ -80,7 +80,7 @@ table.developers {
   text-align: center;
   margin-top: 5px;
 }
-.nav a {
+.nav a.mainNav {
     text-decoration: none;
     font-family: "Abel", sans-serif;
     color: #108CF4;
@@ -243,4 +243,29 @@ h1.centered {
 
 .blue:hover {
   background-color: #6fbaf8;
+}
+
+/* Login Styles */
+
+/* Main login link */
+.login-link-text {
+    font-family: "Abel", sans-serif;
+    color: #108CF4;
+    margin-right: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+/* "Forgot password" and "sign up links" */
+.additional-link {
+
+}
+
+/* Login button */
+.login-buttons-password {
+    /*  Anything we put here appears to
+        be overriden by Meteor.
+        Use !important at your own peril. */
+    background-color: cyan;
 }

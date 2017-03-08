@@ -26,5 +26,3 @@ babel-runtime@1.0.1
 slam310:smooth-scroll
 accounts-password
 accounts-ui
-useraccounts:unstyled
-useraccounts:core
