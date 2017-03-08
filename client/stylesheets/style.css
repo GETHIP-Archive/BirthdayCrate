@@ -83,7 +83,7 @@ table.developers {
 .nav a {
     text-decoration: none;
     font-family: "Abel", sans-serif;
-    color: #ffffff;
+    color: #108CF4;
     margin-right: 50px;
     line-height: 50px;
     text-align: center;
@@ -92,7 +92,7 @@ table.developers {
 
 }
 .nav a:hover {
-    color: #999999;
+    color: #6fbaf8;
 }
 .sect{
   height:900px;
@@ -112,21 +112,7 @@ table.developers {
   text-align: center;
   vertical-align: middle;
 }
-.amazonLogin {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-/* Login page */
-.sectLogin {
-    margin: auto;
-    padding: 0 0;
-    text-align: center;
-    border-style: solid;
-    border-color: #222233;
-}
-form {
+=form {
     padding: 20px 0;
     width: 20%;
     margin-top: 10%;
@@ -174,22 +160,6 @@ form input{
 }
 .sectThree {
   background-image: url("candles.jpg")
-}
-.loginButton {
-    border-color:  #108cf4;
-    color:  white;
-    border-style: solid;
-    border-radius: 13px;
-    background-color:  #108cf4;
-    border-width: 0.1px;
-    padding: 15px;
-    margin: 20px;
-    text-align: center;
-display: inline-block;
-text-decoration: none;
-}
-.loginButton:hover {
-background-color:#6fbaf8;
 }
 .about {
     font-family:'Abel', sans-serif;
