@@ -251,9 +251,9 @@ h1.centered {
 .login-link-text {
     font-family: "Abel", sans-serif;
     color: #108CF4;
-    margin-right: 50px;
+    margin-left: 300px;
     line-height: 50px;
-    text-align: center;
+    text-align: right;
     margin-bottom: 5px;
     font-size: 20px;
 }
