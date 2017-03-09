@@ -260,8 +260,12 @@ text-decoration: none not working*/
     font-size: 20px;
 }
 /* "Forgot password" and "sign up links" */
-.additional-link {
-
+a#forgot-password-link.additional-link,
+a#signup-link.additional-link,
+#login-buttons a.login-close-text,
+a#login-sign-in-link.login-link-text,
+a#back-to-login-link.additional-link {
+    text-decoration: none;
 }
 
 /* Login button */
