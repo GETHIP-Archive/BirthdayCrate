@@ -278,3 +278,6 @@ a#back-to-login-link.additional-link {
     outside of text color. */
     background-color: cyan;
 }
+div#login-dropdown-list.accounts-dialog {
+    left: 200px;
+}
