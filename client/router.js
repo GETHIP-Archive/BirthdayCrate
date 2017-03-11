@@ -50,3 +50,10 @@ FlowRouter.route("/spending", {
     });
   }
 });
+FlowRouter.route("/suggestions", {
+  action: function() {
+    BlazeLayout.render("main", {
+      content: "suggestions"
+    });
+  }
+});
