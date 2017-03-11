@@ -1,16 +1,16 @@
 <template name="survey">
   <div class="imgContainer">
     <h1 class="centered">Which do you prefer?</h1>
-    <a href="/time">
-      <img alt="Beats Wireless Headphones" class="surveyOption" src="beats.jpg" />
-      <img alt="Bose Headphones" class="surveyOption" src="bose.jpg" />
+    <a href="/suggestions">
+      <img alt="Beats Wireless Headphones" class="surveyOption" src="apple.jpg" />
+      <img alt="Bose Headphones" class="surveyOption" src="samsung.jpg" />
     </a>
   </div>
 </template>
 <template name="time">
   <div class="imgContainer">
     <h1 class="centered">How would you rather spend your free time?</h1>
-    <a href="/gender">
+    <a href="/survey">
       <img alt="Books" class="surveyOption" src="books.jpg" />
       <img alt="Electronics" class="surveyOption" src="electronics.jpg" />
     </a>
@@ -30,6 +30,22 @@
   <div class="centered">
     <p style="display:inline;margin-right:3em;">$15</p><input style="" type="range" min="15" max="400" step="20" /><p style="display:inline;margin-left:3em;">$400</p>
     <br />
-    <a href="/dash">Finish</a>
+    <a href="/time">Next</a>
+  </div>
+</template>
+<template name="suggestions">
+  <h1 class="centered">Suggestions</h1>
+  <a href="https://www.amazon.com/Bose-SoundSport-ear-headphones-Charcoal/dp/B0117RFOEG/ref=sr_1_4?s=aht&ie=UTF8&qid=1489208090&sr=1-4&keywords=bose+headphones">
+    <h2 class="centered">Bose Headphones</h2>
+  </a>
+  <a href="https://www.amazon.com/Monster-Beats-Ibeats-Headphones-Earphones/dp/B0148FSV62/ref=sr_1_4?s=aht&ie=UTF8&qid=1489208204&sr=1-4&keywords=beats+headphones">
+    <h2 class="centered">Beats Headphones</h2>
+  </a>
+  <a href="http://www.apple.com/airpods/">
+    <h2 class="centered">Apple Earpods</h2>
+  </a>
+  <br />
+  <div style="text-align:center;">
+    <a style="font-size:3em;" href="/time">Next</a>
   </div>
 </template>

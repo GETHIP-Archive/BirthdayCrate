@@ -9,7 +9,7 @@
       <td class="menuBox">
         <h2 class="menuItem">Pending Orders</h2>
         <p class="statusText">You have not made any orders.</p>
-         <a href="#" class="btn blue">Order Now!</a>
+         <a href="/survey" class="btn blue">Order Now!</a>
       </td>
     </tr>
     <tr>
@@ -30,6 +30,7 @@
     <script type="text/javascript">
       function addFriend() {
         document.getElementById("friendstatus").innerHTML = "Invitation sent to " + document.getElementById("friendemail").value + ".";
+        document.getElementById("friendemail").value = "";
       }
     </script>
   </table>
