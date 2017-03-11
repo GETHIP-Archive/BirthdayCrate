@@ -112,7 +112,7 @@ table.developers {
   text-align: center;
   vertical-align: middle;
 }
-=form {
+form {
     padding: 20px 0;
     width: 20%;
     margin-top: 10%;
@@ -198,7 +198,7 @@ h2.menuItem {
 td.menuBox {
   border: 5px groove #108CF4;
   background-color: #252525;
-  align: center;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 
@@ -254,7 +254,7 @@ text-decoration: none not working*/
     font-family: "Abel", sans-serif;
     text-decoration-line: none;
     color: #108CF4;
-    margin-left: 300px;
+    margin-left: 70px;
     line-height: 50px;
     margin-bottom: 5px;
     font-size: 20px;
@@ -280,4 +280,8 @@ a#back-to-login-link.additional-link {
 }
 div#login-dropdown-list.accounts-dialog {
     left: 200px;
+}
+
+.surveyNav {
+  margin-left: 50px;
 }
