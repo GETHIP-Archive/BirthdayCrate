@@ -1,9 +1,35 @@
 <template name="survey">
   <div class="imgContainer">
     <h1 class="centered">Which do you prefer?</h1>
-    <a href="/dash">
+    <a href="/time">
       <img alt="Beats Wireless Headphones" class="surveyOption" src="beats.jpg" />
       <img alt="Bose Headphones" class="surveyOption" src="bose.jpg" />
     </a>
+  </div>
+</template>
+<template name="time">
+  <div class="imgContainer">
+    <h1 class="centered">How would you rather spend your free time?</h1>
+    <a href="/gender">
+      <img alt="Books" class="surveyOption" src="books.jpg" />
+      <img alt="Electronics" class="surveyOption" src="electronics.jpg" />
+    </a>
+  </div>
+</template>
+<template name="gender">
+  <div class="imgContainer">
+    <h1 class="centered">What is your sex?</h1>
+    <a href="/spending">
+      <img alt="Male" class="surveyOption" src="male.jpg" />
+      <img alt="Females" class="surveyOption" src="female.jpg" />
+    </a>
+  </div>
+</template>
+<template name="spending">
+  <h1 class="centered">What is your spending range?</h1>
+  <div class="centered">
+    <p style="display:inline;margin-right:3em;">$15</p><input style="" type="range" min="15" max="400" step="20" /><p style="display:inline;margin-left:3em;">$400</p>
+    <br />
+    <a href="/dash">Finish</a>
   </div>
 </template>

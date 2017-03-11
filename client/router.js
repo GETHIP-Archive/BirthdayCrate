@@ -29,3 +29,24 @@ FlowRouter.route("/dash", {
   },
   name: "Dashboard"
 });
+FlowRouter.route("/time", {
+  action: function() {
+    BlazeLayout.render("main", {
+      content: "time"
+    });
+  } // Too lazy
+});
+FlowRouter.route("/gender", {
+  action: function() {
+    BlazeLayout.render("main", {
+      content: "gender"
+    });
+  }
+});
+FlowRouter.route("/spending", {
+  action: function() {
+    BlazeLayout.render("main", {
+      content: "spending"
+    });
+  }
+});
