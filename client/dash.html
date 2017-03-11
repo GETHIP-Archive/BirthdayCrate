@@ -15,13 +15,22 @@
     <tr>
       <td class="menuBox">
         <h2 class="menuItem">Friends</h2>
-        <p class="statusText">You have not added any friends.</p>
-          <a href="#" class="btn blue">Add Friend!</a>
+        <p class="statusText" id="friendstatus">You have not added any friends.</p>
+        <p style="display:inline;color:#EF730B;margin-right:1.5em;">
+          Enter your friends email:
+        </p><input id="friendemail" type="email" />
+        <br />
+        <a href="#" class="btn blue" onclick="addFriend();">Add Friend!</a>
       </td>
       <td class="menuBox">
         <h2 class="menuItem">Survey</h2>
         <p class="statusText">You currently have no pending survey questions.</p>
       </td>
     </tr>
+    <script type="text/javascript">
+      function addFriend() {
+        document.getElementById("friendstatus").innerHTML = "Invitation sent to " + document.getElementById("friendemail").value + ".";
+      }
+    </script>
   </table>
 </template>
